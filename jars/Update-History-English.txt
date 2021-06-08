@@ -1,0 +1,18 @@
+Update-History
+
+
+1.0.0
+>
+The number of core concurrent threads can be defined, that is, the number of concurrent requests at the same time.
+>
+The number of threads waiting to be queued can be defined, that is, the number of requests that can be queued after the number of concurrent cores is exceeded.
+>
+The strategy for waiting for the queue to enter the execution state can be defined: first come first, execute first, then execute first.
+>
+You can define a strategy for processing new requests after the waiting queue is full:
+>
+  -Discard the latest task in the queue
+  -Abandon the oldest task in the queue
+  -Abandon the current new mission
+  -Direct execution (blocking the current thread)
+  -Throw an exception (interrupt the current thread)
