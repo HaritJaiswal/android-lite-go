@@ -9,7 +9,7 @@ This mechanism not only meets the independent needs of different modules for thr
 
 --------------------------
 
-Official website: [litesuits.com]((` <a href="http://litesuits.com" title="Title">`))
+Official website: [litesuits.com](` <a href="http://litesuits.com" title="Title">`)
 
 QQ group: 42960650
 
